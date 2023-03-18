@@ -1,32 +1,33 @@
 body {
-  margin: 0;
+  box-sizing: border-box;
+    height: 100vh;
+    margin-left:  100px;
+    margin-right:  100px;
+    background-color: #E3EAFA;
   text-align: center;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   color: #40514E;
   font-size: 20px;
 }
 
 h1 {
-  color: #66BFBF;
-  margin:50px auto 0 auto;
-  font-family: 'Sacramento',cursive;
-  font-size: 562%;
+  color: #000000;
+    margin: -16px auto -29px auto;
+    font-family: 'Sacramento',cursive;
+    font-size: 484%;
 }
 
 h2 {
   color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comic Sans MS', 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: 200;
   font-weight: normal;
-  padding-bottom: 10px;
-
 }
 
 h3 {
   color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: 'Comic Sans MS','Montserrat', sans-serif;
 
 }
 
@@ -35,20 +36,23 @@ p{
 }
 
 hr{
-border: dotted #EAF6f6 6px;
+border: dotted #000000 6px;
 border-bottom: none;
-width:5%;
-margin:100px auto;
+width:20%;
+margin:10px auto;
 }
 
-.topcontainer {
-  background-color: #e4f9f5;
+.top-container {
+  background-color: #66bfbf;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
+  background-color: #e4f9f5;
 margin: 50px 0px;
+padding-top: 10px;
+padding-bottom:40px;
 }
 
 .bottom-container {
@@ -66,14 +70,14 @@ background-color: #66bfbf;
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 109px;
+  top: 20px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 93px;
+  bottom: 306px;
 }
 
 
@@ -84,7 +88,7 @@ background-color: #66bfbf;
 
 .skill-row{
   width: 50%;
-  margin:100px auto 100px auto;
+  margin: 0px auto 30px auto;
   text-align: left;
 }
 
